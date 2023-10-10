@@ -83,7 +83,7 @@ int main(){
             }
           }
          }
-        printf("Resultado de la multiplicación:\n");
+        printf("Resultado de la multiplicaciÃ³n:\n");
          for (i = 0; i < n; i++) {
           for (j = 0; j < n; j++) {
             printf("%d ", resultado[i][j]);
@@ -105,14 +105,14 @@ int main(){
         break;
 		 
         case 5:
-           for (i=0; i<n; i++) {
-            for (j=i+1; j<n; j++) {
-            	printf("%d ",A[i][j]);
-             suma +=A[i][j] + B[i][j];
-            }
-           printf("\n"); 
+           for (i = 0; i < n; i++) {
+	    for (j = i + 1; j < n; j++) {
+             printf("%d ", A[i][j]);
+             sumat += A[i][j]; 
            }
-        printf("Suma triangular superior de la matriz A y B: %d\n", suma);
+        printf("\n");
+        }
+        printf("Suma triangular superior de la matriz A: %d\n", sumat);
         break;
         
         default:
