@@ -6,6 +6,7 @@
 int main(){
 	int o,n,i,j,k;
 	int suma=0;
+	int sumat=0;
 	
     srand(time(NULL));
     printf("Ingrese la longitud de la matriz: \n");
